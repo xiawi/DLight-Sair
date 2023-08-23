@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dlight Sair - Legends</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./CSS/Default_CSS.css">
+    <style>
+        .hattori {
+            width: 600px;
+            height: 600px;
+            object-fit: contain;
+            transition: 2s;
+            border-radius: 45px;
+            cursor: pointer
+        }
+
+        .hattori:hover {
+            background: darkred;
+            height: 610px;
+            width: 610px;
+            box-shadow: 0 0 10px black;
+        }
+
+        .yumiko {
+            width: 600px;
+            height: 600px;
+            object-fit: contain;
+            transition: 2s;
+            border-radius: 45px;
+            cursor: pointer
+        }
+
+        .yumiko:hover {
+            background: whitesmoke;
+            height: 610px;
+            width: 610px;
+            box-shadow: 0 0 10px black;
+        }
+
+        @media (max-aspect-ratio: 16/9) {
+            .hattori {
+                width: 60%;
+                height: auto;
+            }
+        }
+
+        @media (max-aspect-ratio: 16/9) {
+            .hattori:hover {
+                width: 60%;
+                height: auto;
+            }
+        }
+
+        @media (max-aspect-ratio: 16/9) {
+            .yumiko {
+                width: 60%;
+                height: auto;
+            }
+        }
+
+        @media (max-aspect-ratio: 16/9) {
+            .yumiko:hover {
+                width: 60%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="gradient">
+        <div class="header">
+            <a href="index.html" class="logo"> <img src="./images/logo.svg" alt="Logo" width="25" length="auto"> DLight
+                Sair</a>
+            <div class="header-right">
+                <a href="index.html">Home</a>
+                <a class="active" href="legends.html">Legends</a>
+                <a href="weapons.html">Weapons</a>
+                <a href="other.html">Other</a>
+                <a href="about.html">About</a>
+                <a href="contact.php">Contact</a>
+            </div>
+        </div>
+        <main align="center">
+            <div>
+
+                <h2 id="title">Legends</h2>
+
+                <p>There are currently <b>55</b> playable characters or <em>legends</em> in the game.<br>Here are two
+                    that I'm the most familiar with.
+                </p>
+                <hr>
+            </div>
+
+            <div>
+                <img onclick="window.location.href='./legends/hattori.html'" src="./images/HattoriSplash.png"
+                    alt="hattori" class="hattori">
+                <img onclick="window.location.href='./legends/yumiko.html'" src="./images/YumikoSplash.png" alt="yumiko"
+                    class="yumiko">
+            </div>
+
+            <hr>
+
+        </main>
+
+        <footer>
+            <div class="flex-container">
+                <div style="display:table">
+                    <div style="display:table-row">
+                        <a href="http://steamcommunity.com/id/Zythrim/" target="_blank">
+                            <img style="margin: 30px;" src="./images/steam-logo-transparent.png" height="50px"
+                                width="auto" alt="Steam">
+                        </a>
+
+                        <a href="https://www.youtube.com/channel/UCXoon2DOzAfQ82yPjc-ZTYQ" target="_blank">
+                            <img style="margin:30px;" src="./images/youtube-logo-transparent.svg" height="50px"
+                                width="auto" alt="YouTube">
+                        </a>
+                    </div>
+
+                    <div style="display:table-row">
+                        <img src="./images/logo.svg" height="25px" width="auto" alt="Logo">
+                        &copy; Copyright 2022. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dlight Sair - Other</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./CSS/Default_CSS.css">
+    <style>
+        .button {
+            cursor:pointer;
+            border-radius: 10px;
+            transition: 1s;
+            width: 300px;
+            height: auto;
+            margin: 30px
+        }
+
+        .button:hover {
+            width: 350px;
+            height: auto;
+            box-shadow: 0 0 3px;
+            background-color: aliceblue;
+        }
+
+        @media (max-aspect-ratio: 16/9) {
+            .button {
+                width: 60%;
+                height: 60%;
+            }
+        }
+
+        @media (max-aspect-ratio: 16/9) {
+            .button:hover {
+                width: 60%;
+                height: 60%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html" class="logo"> <img src="./images/logo.svg" alt="Logo" width="25" length="auto"> DLight
+            Sair</a>
+        <div class="header-right">
+            <a href="index.html">Home</a>
+            <a href="legends.html">Legends</a>
+            <a href="weapons.html">Weapons</a>
+            <a class="active" href="other.html">Other</a>
+            <a href="about.html">About</a>
+            <a href="contact.php">Contact</a>
+        </div>
+    </div>
+    <main align="center">
+        <h2 id="title">Other</h2>
+        <p>This guide didn't belong anywhere, so I decided to put it here.</p>
+
+        <hr>
+            <img class="button" src="./images/terminology.svg" onclick="window.location.href='./other/terminology.html'">
+        <p><i>What is DLight? What is Sair?</i></p>
+    </main>
+
+    <hr>
+
+    <footer>
+        <div class="flex-container">
+            <div style="display:table">
+                <div style="display:table-row">
+                    <a href="http://steamcommunity.com/id/Zythrim/" target="_blank">
+                        <img style="margin: 30px;" src="./images/steam-logo-transparent.png" height="50px" width="auto"
+                            alt="Steam">
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCXoon2DOzAfQ82yPjc-ZTYQ" target="_blank">
+                        <img style="margin:30px;" src="./images/youtube-logo-transparent.svg" height="50px" width="auto"
+                            alt="YouTube">
+                    </a>
+                </div>
+
+                <div style="display:table-row">
+                    <img src="./images/logo.svg" height="25px" width="auto" alt="Logo">
+                    &copy; Copyright 2022. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

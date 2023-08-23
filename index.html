@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dlight Sair - Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./CSS/Default_CSS.css">
+    <style>
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #291c63;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html" class="logo"> <img src="./images/logo.svg" alt="Logo" width="25" length="auto"> DLight
+            Sair</a>
+        <div class="header-right">
+            <a class="active" href="index.html">Home</a>
+            <a href="legends.html">Legends</a>
+            <a href="weapons.html">Weapons</a>
+            <a href="other.html">Other</a>
+            <a href="about.html">About</a>
+            <a href="contact.php">Contact</a>
+        </div>
+    </div>
+    </div>
+    </div>
+    <video id="videoBG" autoplay muted loop>
+        <source src="./videos/home.mp4">
+    </video>
+    <br><br><br><br>
+    <div id="maintext">
+        <p style="font-weight:bold;">Enter <span style="font-weight:bolder;">Brawlhalla</span>, a free-to-play platform
+            fighter. A
+            simple
+            game with a steep learning curve. If you're
+            having trouble improving at the game, Dlight Sair aims to help you with that. </p>
+        <br>
+        <button class="button" onclick="window.location.href='./other/terminology.html'">
+            <span>Start Here</span>
+        </button>
+    </div>
+
+</body>
+
+</html>

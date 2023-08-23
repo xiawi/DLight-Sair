@@ -1,0 +1,268 @@
+body {
+    background-image: linear-gradient(#ffffff, #4cc6f7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+blockquote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-left: 10px solid #291c63;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background: rgba(26, 63, 185, 0.5);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #291c63;
+    justify-content: center;
+}
+
+.flex-container>div {
+    margin: 10px;
+    padding: 10px;
+}
+
+#videoBG {
+    position: fixed;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#maintext {
+    text-align: center;
+    padding: 50px 100px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+    width: 25%;
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #maintext {
+        width: 100%;
+        margin-top: 100px;
+        padding:10px 0;
+    }
+}
+
+
+
+#title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px 50px;
+    text-align: center;
+    font: size 20px;
+    font-weight: bold;
+    background-color: #291c63;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    background-color: #291c63;
+}
+
+.header a {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+    text-shadow: 5px 4px 4px #000000;
+    font-family: Verdana, sans-serif;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #47378f;
+    color: white;
+}
+
+.header a.active {
+    background-color: #241046;
+    color: #fffb00;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #videoBG {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    blockquote {
+        margin: 0px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 3px black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkgrey;
+}
+
+#legendsec {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+    padding: 50px;
+    box-shadow: inset 0 0 10px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#legendsec h2 {
+    text-shadow: 4px 4px 4px #000000
+}
+
+#legendsec a {
+    color: white;
+}
+
+#legendsec a:active {
+    color: grey;
+}
+
+#legendsec a:hover {
+    color: lightgrey;
+}
+
+#legendsec a:visited {
+    color: grey
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #legendsec {
+        width: 100%;
+        margin: 50px 0px;
+        padding:50px 0;
+    }
+}
+
+#mainsquare {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+    padding: 50px;
+    box-shadow: inset 0 0 10px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #291c63
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #mainsquare {
+        padding-left:1px;
+        padding-right:1px;
+        width: 100%;
+        margin: 50px 0px;
+    }
+}
+
+#section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #section {
+        width: 100%;
+        margin: 0 0;
+    }
+}
+
+#combos {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #291c63;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px black;
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #combos {
+        width: 100%;
+        margin: 0 0;
+        padding:0 0;
+    }
+}
+
